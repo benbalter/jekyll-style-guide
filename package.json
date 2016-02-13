@@ -1,0 +1,35 @@
+{
+  "name": "jekyll-style-guide",
+  "version": "0.1.0",
+  "description": "An opinionated guide to common Jekyll design patterns and anti-patterns.",
+  "main": "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benbalter/jekyll-style-guide.git"
+  },
+  "author": "Ben Balter",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/benbalter/jekyll-style-guide/issues"
+  },
+  "homepage": "https://github.com/benbalter/jekyll-style-guide#readme",
+  "dependencies": {
+    "remark": "^3.2.3",
+    "remark-lint": "^2.3.1",
+    "remark-lint-blank-lines-1-0-2": "^1.0.0",
+    "remark-lint-code": "^1.0.0",
+    "remark-lint-no-empty-sections": "^1.0.0",
+    "remark-lint-no-url-trailing-slash": "^1.0.0",
+    "remark-normalize-headings": "^0.3.0",
+    "remark-slug": "^4.0.0",
+    "remark-squeeze-paragraphs": "^3.0.0",
+    "remark-textr": "^2.0.1",
+    "remark-yaml": "^2.0.1",
+    "typographic-em-dashes": "^1.0.2",
+    "typographic-en-dashes": "^1.0.1",
+    "typographic-single-spaces": "^1.0.2"
+  }
+}
