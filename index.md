@@ -16,3 +16,9 @@ Jekyll's increadibly flexible, but in some instances, the lack of common convent
   <li><a href="{{ doc.url | prepend: site.github.url }}">{{ doc.title }}</a></li>
 {% endfor %}
 </ul>
+
+### Want to contribute?
+
+This style guide is intended to be a collaborative resource for the Jekyll communitity. Please help improve it.
+
+See [the contributing instructions](contributing) for more information.
