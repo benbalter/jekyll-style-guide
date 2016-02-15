@@ -1,8 +1,5 @@
 AllCops:
   TargetRubyVersion: 2.0
-  Exclude:
-    - config/**/*
-    - vendor/**/*
 
 Style/AlignHash:
   EnforcedHashRocketStyle: table
