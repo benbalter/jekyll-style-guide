@@ -4,6 +4,7 @@ gem 'github-pages'
 
 group :test do
   gem 'html-proofer'
+  gem 'rubocop'
 end
 
 group :development do
