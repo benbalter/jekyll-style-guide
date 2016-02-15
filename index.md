@@ -13,6 +13,6 @@ Jekyll's increadibly flexible, but in some instances, the lack of common convent
 
 <ul>
 {% for doc in site.docs %}
-  <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
+  <li><a href="{{ doc.url | prepend: site.github.url }}">{{ doc.title }}</a></li>
 {% endfor %}
 </ul>
