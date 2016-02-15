@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <title>{{ site.title }}</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="{{ site.github.url }}/assets/style.css">
+
+    {% seo-tag %}
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-1 body">
+          <h1>
+            <a href="{{ site.github.url }}/">{{ site.title }}</a>
+          </h1>
+
+          {% if page.title %}
+            <h2 class="lead">
+              <a href="{{ page.url | prepend: site.github.url }}">{{ page.title }}</a>
+            </h2>
+          {% endif %}
+
+          <div class="main">
+            {{ content }}
+          </div><!-- main -->
+
+          {% unless page.url == "/" %}
+            <div class="row improve">
+              <div class="col-sm-2 col-sm-offset-2">
+                <a class="btn btn-primary btn-lg" href="https://github.com/{{ site.github.repository_nwo }}/edit/{{ site.branch }}/{{ page.path }}" title="Help Improve {{ page.title }}">Edit</a>
+              </div><!-- Edit button -->
+              <div class="col-sm-6 col-sm-offset-1">
+                <p class="help-text">
+                  This site is <a href="{{ site.github.repo_url }}">open source</a>. Please <a href="https://github.com/{{ site.github.repository_nwo }}/edit/{{ site.branch }}/{{ page.path }}">help improve this guide</a>.
+                </p>
+              </div><!-- improve help text -->
+            </div><!-- .improve -->
+          {% endunless %}
+        </div><!-- .body -->
+      </div><!-- .row -->
+    </div><!-- .container -->
+
+    <script crossorigin="anonymous" integrity="sha256-4u+O0RIFBV21ll+Og6YSkg8rz7GzzQckxufzbWdcFy4=" src="https://cdn.jsdelivr.net/anchorjs/3.0.0/anchor.min.js"></script>
+
+    <script>anchors.options = {visible: 'always'}; anchors.add('h3,h4,h5,h6');</script>
+  </body>
+</html>

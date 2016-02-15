@@ -3,3 +3,5 @@
 set -ex
 
 npm install
+
+bundle install

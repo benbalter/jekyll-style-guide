@@ -1,0 +1,45 @@
+title: Jekyll style guide
+description: An opinionated guide to common Jekyll design patterns and anti-patterns.
+
+branch: gh-pages
+
+collections:
+  docs:
+    output: true
+    permalink: /:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: default
+
+kramdown:
+  input: GFM
+
+github:
+  repository_nwo: benbalter/jekyll-style-guide
+
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - lib
+  - node_modules
+  - script
+  - README.md
+  - LICENSE.md
+  - package.json
+  - Gemfile
+  - tmp
+
+sass:
+  style: :compressed
+
+kramdown:
+ input: GFM
+ hard_wrap: false
+
+highlighter: rouge

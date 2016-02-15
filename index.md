@@ -1,17 +1,18 @@
-# Jekyll style guide
+---
+layout: default
+---
 
-A style guide for building Jekyll sites
-
-## Introduction
-
-### What is this thing?
-
-An opinionated guide to common Jekyll design patterns and anti-patterns.
+## {{ site.description }}
+{: .lead }
 
 ### Why write this?
 
 Jekyll's increadibly flexible, but in some instances, the lack of common conventions make things harder for users. For one, there are many common design patterns that are still relatively unknown to new users (e.g., using `permalink: /about/` in `about.md`, rather than creating `/about/index.md`). For another, when writing a plugin or theme intended to be used across sites, should it look for `site.title` or `site.name`? `site.description` or `site.tagline`? Moar options, moar problems.
 
-### Current status
+### Guides
 
-This document is an early draft intended to collect feedback. Once a 1.0 is reached, it'd be cool to create a Jekyll site to display the rules and/or a Jekyll linter to enforce site-wide styles.
+<ul>
+{% for doc in site.docs %}
+  <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
+{% endfor %}
+</ul>

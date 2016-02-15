@@ -1,1 +1,6 @@
-node_modules
+/node_modules
+/_site
+/tmp
+/.jekyll-metadata
+/.sass-cache
+/Gemfile.lock

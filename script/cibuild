@@ -2,4 +2,7 @@
 
 set -ex
 
-remark README.md CONTRIBUTING.md
+remark README.md CONTRIBUTING.md _docs/*.md
+
+bundle exec jekyll build
+htmlproof ./_site
