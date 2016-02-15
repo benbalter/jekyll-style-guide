@@ -1,5 +1,6 @@
 ---
 title: Contributing
+permalink: /contributing/
 ---
 
 ### Contributing to the Jekyll Style Guide

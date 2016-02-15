@@ -21,4 +21,4 @@ Jekyll's increadibly flexible, but in some instances, the lack of common convent
 
 This style guide is intended to be a collaborative resource for the Jekyll communitity. Please help improve it.
 
-See [the contributing instructions](contributing) for more information.
+See [the contributing instructions](./contributing/) for more information.
