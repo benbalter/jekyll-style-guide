@@ -1,5 +1,6 @@
 title: Jekyll style guide
 description: An opinionated guide to common Jekyll design patterns and anti-patterns.
+repository: benbalter/jekyll-style-guide
 
 branch: gh-pages
 
@@ -18,13 +19,11 @@ defaults:
 kramdown:
   input: GFM
 
-github:
-  repository_nwo: benbalter/jekyll-style-guide
-
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
-
+  - jekyll-github-metadata
+  
 exclude:
   - lib
   - node_modules

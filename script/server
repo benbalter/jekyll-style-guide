@@ -5,4 +5,4 @@ set -ex
 rm -Rf _site
 rm -f .jekyll-metadata
 
-bundle exec jekyll serve --watch --incremental
+bundle exec dotenv jekyll serve --watch --incremental

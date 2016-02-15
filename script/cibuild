@@ -4,5 +4,5 @@ set -ex
 
 remark README.md CONTRIBUTING.md _docs/*.md
 
-bundle exec jekyll build
+bundle exec dotenv jekyll build
 htmlproof ./_site
