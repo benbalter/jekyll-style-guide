@@ -1,6 +1,6 @@
 # Jekyll style guide
 
-A style guide for building Jekyll sites
+[![Build Status](https://travis-ci.org/benbalter/jekyll-style-guide.svg?branch=master)](https://travis-ci.org/benbalter/jekyll-style-guide)
 
 ## Introduction
 
