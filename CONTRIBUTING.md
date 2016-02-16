@@ -5,7 +5,7 @@ permalink: /contributing/
 
 ### Contributing to the Jekyll Style Guide
 
-This style guide is intended to be a collaborative resource for the Jekyll communitity. Please help improve it.
+This style guide is intended to be a collaborative resource for the Jekyll community. Please help improve it.
 
 If you'd like to propose a change to the style guide, please suggest the added or modified rule as [a pull request](https://help.github.com/articles/creating-a-pull-request/) so that the community can discuss the merits of the proposed change a bit more tangibly.
 

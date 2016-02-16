@@ -8,4 +8,4 @@ The site's primary layout should be called `default.html`. Where possible, all o
 
 ### Header and footer includes
 
-Unless unusually complex, do not delegate header and footer markup to dedicated includes. This adds unecessary complexity for simple sites. While many WordPress themes, for example, may do this, Rails, and the majority of the Ruby world (from which Jekyll gets its roots), do not.
+Unless unusually complex, do not delegate header and footer markup to dedicated includes. This adds unnecessary complexity for simple sites. While many WordPress themes, for example, may do this, Rails, and the majority of the Ruby world (from which Jekyll gets its roots), do not.
