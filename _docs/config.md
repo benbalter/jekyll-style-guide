@@ -37,7 +37,7 @@ Use the following site-wide variables, where appropriate:
 The site's base URL is [only to be used when the resulting site lives at a subpath of the domain](https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/). Otherwise, the subpath should be nil, not `/`.
 
 * Example 1: If your site lives at `example.com/blog`, you should have a `baseurl` of `/blog`.
-* Example 2: If your site lives at `example.com/blog`, you should not set a `baseurl`. Not even `/`.
+* Example 2: If your site lives at `example.com/`, you should not set a `baseurl`. Not even `/`.
 
 ### URL
 
