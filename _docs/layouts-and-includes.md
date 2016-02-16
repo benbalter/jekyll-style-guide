@@ -4,7 +4,7 @@ title: Layouts and includes
 
 ### The site's primary layout
 
-The site's primary layout should be called `default.html`. Where possible, all other layouts should enherit from the default layout.
+The site's primary layout should be called `default.html`. Where possible, all other layouts should inherit from the default layout.
 
 ### Header and footer includes
 
