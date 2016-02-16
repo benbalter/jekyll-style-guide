@@ -4,7 +4,7 @@ title: Information architecture
 
 ### When to use posts
 
-Post are to be used for the site's primary (or only) chronolocically ordered content. Examples of this may be blog posts or news articles.
+Post are to be used for the site's primary (or only) chronologically ordered content. Examples of this may be blog posts or news articles.
 
 ### When to use collections
 

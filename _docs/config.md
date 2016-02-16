@@ -8,7 +8,7 @@ Config files should be YAML.
 
 ### Arrays
 
-Prefer multi-line arrays for readablility and version control purposes.
+Prefer multi-line arrays for readability and version control purposes.
 
 Good:
 
@@ -41,7 +41,7 @@ The site's base URL is [only to be used when the resulting site lives at a subpa
 
 ### URL
 
-When your site is intended to be hosted on GitHub Pages, prefer `site.github.url`, to a manually specified `url`. This will save headache if your repository is renamed, you add a CNAME, the project is forked, or if you preview the site locally. To ensure your site renders properly locally, add the following to your site's config (which will be overwridden by GitHub Pages):
+When your site is intended to be hosted on GitHub Pages, prefer `site.github.url`, to a manually specified `url`. This will save headache if your repository is renamed, you add a CNAME, the project is forked, or if you preview the site locally. To ensure your site renders properly locally, add the following to your site's config (which will be overridden by GitHub Pages):
 
 ```yml
 github:

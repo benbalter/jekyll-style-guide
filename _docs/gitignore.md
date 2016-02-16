@@ -12,4 +12,4 @@ _site
 
 ### `Gemfile.lock`
 
-If the built site is served via GitHub Pages, you should also add `Gemfile.lock` to your site's `.gitignore`. The `github-pages` gem strictly versions dependencies, rendering versioning the lockfile unecessary, and potentially could result in using outdated gem versions.
+If the built site is served via GitHub Pages, you should also add `Gemfile.lock` to your site's `.gitignore`. The `github-pages` gem strictly versions dependencies, rendering versioning the lockfile unnecessary, and potentially could result in using outdated gem versions.
