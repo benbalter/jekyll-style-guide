@@ -10,4 +10,5 @@ end
 group :development do
   gem 'jekyll-github-metadata'
   gem 'dotenv'
+  gem 'pry'
 end
