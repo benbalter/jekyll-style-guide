@@ -1,6 +1,7 @@
 before_install: "./script/bootstrap"
 script: "./script/cibuild"
 language: ruby
+rvm: 2.3
 
 cache: bundler
 sudo: false
