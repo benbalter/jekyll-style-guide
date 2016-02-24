@@ -39,9 +39,13 @@ The site's base URL is [only to be used when the resulting site lives at a subpa
 * Example 1: If your site lives at `example.com/blog`, you should have a `baseurl` of `/blog`.
 * Example 2: If your site lives at `example.com`, you should not set a `baseurl`. Not even `/`.
 
+### The `site.github` namespace
+
+When your site is intended to be hosted on GitHub Pages, prefer values in the `site.github` namespace to manually specified values. In additional to reducing configuration noise, this will save headache if your repository is renamed, you add a CNAME, the project is forked, or if you preview the site locally.
+
 ### URL
 
-When your site is intended to be hosted on GitHub Pages, prefer `site.github.url`, to a manually specified `url`. This will save headache if your repository is renamed, you add a CNAME, the project is forked, or if you preview the site locally. To ensure your site renders properly locally, add the following to your site's config (which will be overridden by GitHub Pages):
+Prefer `site.github.url` when using GitHub Pages. To ensure your site renders properly locally, add the following to your site's config (which will be overridden by GitHub Pages):
 
 ```yml
 github:
