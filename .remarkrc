@@ -43,7 +43,6 @@
       "external": [
         "remark-lint-no-empty-sections",
         "remark-lint-code",
-        "remark-lint-no-url-trailing-slash",
         "remark-lint-blank-lines-1-0-2"
       ],
       "blockquote-indentation": 2,
