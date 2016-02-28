@@ -15,9 +15,6 @@ defaults:
       path: ""
     values:
       layout: "default"
-      
-kramdown:
-  input: GFM
 
 gems:
   - jekyll-sitemap
