@@ -4,7 +4,7 @@ title: Filenames
 
 ### Extensions
 
-When a post contains markdown, use `.md` for the file extension. While `.markdown` will still render, many implementations assume three- to four-letter extension names, as will many developers.
+When a post contains markdown, use `.md` for the file extension. While `.markdown` will still render, many implementations assume two- to four-letter extension names, as will many developers.
 
 ### Numbering page names
 
