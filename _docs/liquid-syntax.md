@@ -4,7 +4,7 @@ title: Liquid syntax
 
 ### General Syntax
 
-* Use a space between opening and closing tags, ex: `{{ site.title }}` not `{{site.title}}`.
+* Use a space between opening and closing tags. Good: {% raw %}`{{ site.title }}`{% endraw %}, Bad: {% raw %}`{{site.title}}`{% endraw %}
 
 ### Indentation
 
