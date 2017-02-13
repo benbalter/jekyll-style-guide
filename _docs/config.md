@@ -45,9 +45,5 @@ When your site is intended to be hosted on GitHub Pages, prefer values in the `s
 
 ### URL
 
-Prefer `site.github.url` when using GitHub Pages. To ensure your site renders properly locally, add the following to your site's config (which will be overridden by GitHub Pages):
-
-```yml
-github:
-  url: http://localhost:4000
-```
+You can safely use `site.url` everywhere in your templates.
+While `url`is not a mandatory config key, it is automatically set in development mode to `http://localhost:4000` since Jekyll 3.3 and by GitHub Pages in production.
