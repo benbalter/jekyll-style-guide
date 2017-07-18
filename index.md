@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## {{ site.description }}
+## An opinionated guide to common Jekyll design patterns and anti-patterns
 {: .lead }
 
 ### Why write this?
@@ -19,7 +19,7 @@ This style guide aims to make it easier to create awesome Jekyll sites by codify
 
 <ul>
 {% for doc in site.docs %}
-  <li><a href="{{ doc.url | prepend: site.github.url }}">{{ doc.title }}</a></li>
+  <li><a href="{{ doc.url | absolute_url }}">{{ doc.title }}</a></li>
 {% endfor %}
 </ul>
 
