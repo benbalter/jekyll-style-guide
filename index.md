@@ -1,6 +1,6 @@
 # Jekyll style guide
 
-An opinionated guide to common Jekyll design patterns and anti-patterns
+{{ site.description }}
 {: .lead }
 
 ### Why write this?
