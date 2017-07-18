@@ -3,6 +3,8 @@ title: Jekyll style guide
 description: An opinionated guide to common Jekyll design patterns and anti-patterns
 ---
 
+# Jekyll style guide
+
 ### Why write this?
 
 Jekyll's incredibly flexible, but in some instances, the lack of common conventions make things harder for users.
