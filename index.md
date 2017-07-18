@@ -1,5 +1,5 @@
 ---
-title: Jekyll Style Guide
+title: Jekyll style guide
 description: An opinionated guide to common Jekyll design patterns and anti-patterns
 ---
 
