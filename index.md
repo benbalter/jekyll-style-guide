@@ -1,9 +1,7 @@
----
-title: Jekyll style guide
-description: An opinionated guide to common Jekyll design patterns and anti-patterns
----
-
 # Jekyll style guide
+
+An opinionated guide to common Jekyll design patterns and anti-patterns
+{: .lead }
 
 ### Why write this?
 
