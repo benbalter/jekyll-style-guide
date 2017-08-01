@@ -1,5 +1,4 @@
 {
-  "output": true,
   "settings": {
     "bullet": "*",
     "emphasis": "*",
@@ -9,7 +8,6 @@
     "ruleSpaces": false,
     "ruleRepetition": 3,
     "gfm": true,
-    "yaml": true,
     "footnotes": true,
     "listItemIndent": "1",
     "commonmark": false,
@@ -18,54 +16,94 @@
     "fences": true,
     "spacedTable": true
   },
-  "plugins": {
-    "remark-yaml": {},
-    "remark-squeeze-paragraphs": {},
-    "remark-slug": {},
-    "remark-heading-gap": {
-      "2": {
-        "before": "",
-        "after": ""
-        }
-    },
-    "remark-inline-links": {},
-    "remark-textr": {
-      "options": {
-        "locale": "en-us"
-      },
-      "plugins": [
-        "typographic-em-dashes",
-        "typographic-en-dashes",
-        "typographic-single-spaces"
-      ]
-    },
-    "remark-lint": {
-      "external": [
-        "remark-lint-no-empty-sections",
-        "remark-lint-code",
-        "remark-lint-blank-lines-1-0-2"
-      ],
-      "blockquote-indentation": 2,
-      "checkbox-character-style": {
-        "checked": "x",
-        "unchecked": " "
-      },
-      "code-block-style": "fenced",
-      "fenced-code-marker": "`",
-      "fenced-code-flag": {
-        "allowEmpty": true
-      },
-      "emphasis-marker": "*",
-      "file-extension": "md",
-      "heading-style": "atx",
-      "ordered-list-marker-style": ".",
-      "ordered-list-marker-value": "ordered",
-      "rule-style": "---",
-      "strong-marker": "*",
-      "unordered-list-marker-style": "*",
-      "maximum-line-length": false,
-      "list-item-indent": "space",
-      "table-cell-padding": "padded"
-    }
-  }
+  "plugins": [
+    ["remark-frontmatter", "yaml"],
+    "remark-squeeze-paragraphs",
+    "remark-slug",
+    [
+      "remark-heading-gap",
+      {
+        "2": {"before": "", "after": ""}
+      }
+    ],
+    "remark-inline-links",
+    [
+      "remark-textr",
+      {
+        "options": {"locale": "en-us"},
+        "plugins": [
+          "typographic-em-dashes",
+          "typographic-en-dashes",
+          "typographic-single-spaces"
+        ]
+      }
+    ],
+    "remark-lint",
+    "remark-lint-no-empty-sections",
+    "remark-lint-code",
+    "remark-lint-blank-lines-1-0-2",
+    ["remark-lint-blockquote-indentation", 2],
+    [
+      "remark-lint-checkbox-character-style",
+      {"checked": "x", "unchecked": " "}
+    ],
+    "remark-lint-checkbox-content-indent",
+    ["remark-lint-code-block-style", "fenced"],
+    "remark-lint-definition-case",
+    "remark-lint-definition-spacing",
+    ["remark-lint-emphasis-marker", "*"],
+    [
+      "remark-lint-fenced-code-flag",
+      {"allowEmpty": true}
+    ],
+    ["remark-lint-fenced-code-marker", "`"],
+    ["remark-lint-file-extension", "md"],
+    "remark-lint-final-definition",
+    "remark-lint-final-newline",
+    "remark-lint-hard-break-spaces",
+    "remark-lint-heading-increment",
+    ["remark-lint-heading-style", "atx"],
+    "remark-lint-link-title-style",
+    "remark-lint-list-item-bullet-indent",
+    "remark-lint-list-item-content-indent",
+    ["remark-lint-list-item-indent", "space"],
+    "remark-lint-list-item-spacing",
+    "remark-lint-maximum-heading-length",
+    "remark-lint-no-auto-link-without-protocol",
+    "remark-lint-no-blockquote-without-marker",
+    "remark-lint-no-consecutive-blank-lines",
+    "remark-lint-no-duplicate-definitions",
+    "remark-lint-no-duplicate-headings-in-section",
+    "remark-lint-no-duplicate-headings",
+    "remark-lint-no-emphasis-as-heading",
+    "remark-lint-no-empty-url",
+    "remark-lint-no-file-name-articles",
+    "remark-lint-no-file-name-consecutive-dashes",
+    "remark-lint-no-file-name-irregular-characters",
+    "remark-lint-no-file-name-mixed-case",
+    "remark-lint-no-file-name-outer-dashes",
+    "remark-lint-no-heading-content-indent",
+    "remark-lint-no-heading-indent",
+    "remark-lint-no-heading-like-paragraph",
+    "remark-lint-no-html",
+    "remark-lint-no-inline-padding",
+    "remark-lint-no-literal-urls",
+    "remark-lint-no-multiple-toplevel-headings",
+    "remark-lint-no-reference-like-url",
+    "remark-lint-no-shell-dollars",
+    "remark-lint-no-shortcut-reference-image",
+    "remark-lint-no-shortcut-reference-link",
+    "remark-lint-no-table-indentation",
+    "remark-lint-no-tabs",
+    "remark-lint-no-undefined-references",
+    "remark-lint-no-unused-definitions",
+    ["remark-lint-ordered-list-marker-style", "."],
+    ["remark-lint-ordered-list-marker-value", "ordered"],
+    ["remark-lint-rule-style", "---"],
+    ["remark-lint-strong-marker", "*"],
+    ["remark-lint-table-cell-padding", "padded"],
+    "remark-lint-table-pipe-alignment",
+    "remark-lint-table-pipes",
+    ["remark-lint-unordered-list-marker-style", "*"]
+  ]
 }
