@@ -11,6 +11,13 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
 exclude:
   - node_modules
   - script
