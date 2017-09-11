@@ -1,5 +1,5 @@
 ---
-title: Gemfile
+title: The Gemfile
 ---
 
 ### The GitHub Pages Gem
