@@ -16,4 +16,10 @@ Use pages for any non-chronological content that cannot be logically grouped tog
 
 ### When to use data
 
-Use data (YAML, JSON, or CSV files in the `_data` folder) for site-wide configuration, settings, or other primarily static information. Examples of data might be the site's authors, a list of press clippings, or a glossary of terms. Generally, the distinction between collections and data is that data files do not have a large markdown body, and live in a single file, rather than multiple files. Unlike collections, data files cannot render as individual files.
+Use data (YAML, JSON, or CSV files in the `_data` folder) for site-wide content or other primarily static information that is not otherwise rendered as individual files like documents or pages.
+
+Examples of data might be the site's authors, a list of press clippings, or a glossary of terms.
+
+Generally, the distinction between collections and data is that data files do not have a large markdown body, and live in a single file, rather than multiple files. Unlike collections, data files cannot render as individual files.
+
+The data folder is not a substitute for the site's `_config.yml` file. Data files should contain information about *the subject of the site*, while the config file contains settings that deterimine *how the site is built*.
