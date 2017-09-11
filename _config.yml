@@ -2,20 +2,10 @@ title: Jekyll style guide
 description: An opinionated guide to common Jekyll design patterns and anti-patterns.
 repository: benbalter/jekyll-style-guide
 
-branch: gh-pages
-theme: jekyll-theme-primer
-
 collections:
   docs:
     output: true
     permalink: /:path/
-
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "default"
 
 gems:
   - jekyll-sitemap
