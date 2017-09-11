@@ -19,6 +19,3 @@ exclude:
   - package.json
   - Gemfile
   - tmp
-
-sass:
-  style: :compressed
