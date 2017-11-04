@@ -10,7 +10,7 @@ The theme's primary Sass include should match the full theme name (e.g., `_sass/
 
 The theme's primary stylesheet should live at `assets/css/style.scss` and contain *only* the following content (with "[THEME NAME]" being the name of your theme's primary Sass include):
 
-```liquid
+```sass
 ---
 ---
 
@@ -34,8 +34,8 @@ Themes should, at minimum, respect the following configuration variables, if set
 
 If intended to be used on GitHub Pages, themes should default to the following variables, if the above variables are not set:
 
-* For `title`, themes should default to `site.github.repository_name` (e.g., `{{ title | default: site.github.repository_name }}`)
-* For `description`, themes should default to `site.github.project_description` (e.g., `{{ title | default: site.github.project_description }}`)
+* For `title`, themes should default to `site.github.repository_name` (e.g., <!-- {% raw %} -->`{{ title | default: site.github.repository_name }}`<!-- {% endraw %} -->)
+* For `description`, themes should default to `site.github.project_description` (e.g., <!-- {% raw %} -->`{{ title | default: site.github.project_description }}`<!-- {% endraw %} -->)
 
 Additionally, themes may choose to honor the following variables, if set in the user's `_config.yml`:
 
