@@ -14,7 +14,7 @@ Good:
 
 <!-- {% raw %} -->
 
-```html
+```liquid
 {% assign handle = 'cake' %}
 {% case handle %}
   {% when 'cake' %}
@@ -32,7 +32,7 @@ Bad:
 
 <!-- {% raw %} -->
 
-```html
+```liquid
 {% assign handle = 'cake' %}
 {% case handle %}
 {% when 'cake' %}
@@ -54,7 +54,7 @@ Good:
 
 <!-- {% raw %} -->
 
-```html
+```liquid
 {% if page.title %}
   <h1>{{ page.title }}</h1>
 {% endif %}
@@ -70,7 +70,7 @@ Bad:
 
 <!-- {% raw %} -->
 
-```html
+```liquid
 {% if page.title %}
   <h1>{{ page.title }}</h1>
 {% endif %}
