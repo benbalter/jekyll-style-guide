@@ -57,8 +57,12 @@ While `url`is not a mandatory config key, it is automatically set in development
 
 Prefer the `absolute_url` and `relative_url` filters in templates to calling `site.github` or `site.baseurl` directly to better account for environment and configuration inconsistencies.
 
+<!-- {% raw %} -->
+
 ```liquid
 <a href="{{ post.url | absolute_url }}">Post</a>
 
 <a href="{{ "foo" | relative_url }}">Foo</a>
 ```
+
+<!-- {% endraw %} -->

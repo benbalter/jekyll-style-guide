@@ -4,7 +4,7 @@ title: Liquid syntax
 
 ### General Syntax
 
-* Use a space between opening and closing tags. Good: {% raw %}`{{ site.title }}`{% endraw %}, Bad: {% raw %}`{{site.title}}`{% endraw %}
+* Use a space between opening and closing tags. Good: <!-- {% raw %} -->`{{ site.title }}`<!-- {% endraw %} -->, Bad: <!-- {% raw %} -->`{{site.title}}` <!--{% endraw %} -->
 
 ### Indentation
 
@@ -12,8 +12,9 @@ Place sequential statements at the same indentation level and indent nested stat
 
 Good:
 
-{% raw %}
-```html
+<!-- {% raw %} -->
+
+```liquid
 {% assign handle = 'cake' %}
 {% case handle %}
   {% when 'cake' %}
@@ -24,12 +25,14 @@ Good:
      <p>This is not a cake nor a cookie</p>
 {% endcase %}
 ```
-{% endraw %}
+
+<!--{% endraw %} -->
 
 Bad:
 
-{% raw %}
-```html
+<!-- {% raw %} -->
+
+```liquid
 {% assign handle = 'cake' %}
 {% case handle %}
 {% when 'cake' %}
@@ -40,7 +43,8 @@ Bad:
 <p>This is not a cake nor a cookie</p>
 {% endcase %}
 ```
-{% endraw %}
+
+<!--{% endraw %} -->
 
 ### Vertical Whitespace
 
@@ -48,8 +52,9 @@ Place empty lines between unrelated code blocks to improve readability.
 
 Good:
 
-{% raw %}
-```html
+<!-- {% raw %} -->
+
+```liquid
 {% if page.title %}
   <h1>{{ page.title }}</h1>
 {% endif %}
@@ -58,12 +63,14 @@ Good:
   <p>{{ page.description }}</p>
 {% endif %}
 ```
-{% endraw %}
+
+<!--{% endraw %} -->
 
 Bad:
 
-{% raw %}
-```html
+<!-- {% raw %} -->
+
+```liquid
 {% if page.title %}
   <h1>{{ page.title }}</h1>
 {% endif %}
@@ -71,4 +78,5 @@ Bad:
   <p>{{ page.description }}</p>
 {% endif %}
 ```
-{% endraw %}
+
+<!--{% endraw %} -->

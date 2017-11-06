@@ -28,10 +28,10 @@ Good:
 
 In `about.md` (accessible as `/about/`):
 
-```
+```yaml
 ---
 title: About
-permalink: `/about/`
+permalink: /about/
 ---
 ```
 
@@ -39,7 +39,7 @@ Bad:
 
 In `about/index.md` (accessible as `/about/`):
 
-```
+```yaml
 ---
 title: About
 ---
