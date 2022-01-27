@@ -22,4 +22,4 @@ Examples of data might be the site's authors, a list of press clippings, or a gl
 
 Generally, the distinction between collections and data is that data files do not have a large markdown body, and live in a single file, rather than multiple files. Unlike collections, data files cannot render as individual files.
 
-The data folder is not a substitute for the site's `_config.yml` file. Data files should contain information about *the subject of the site*, while the config file contains settings that deterimine *how the site is built*.
+The data folder is not a substitute for the site's `_config.yml` file. Data files should contain information about *the subject of the site*, while the config file contains settings that determines *how the site is built*.
