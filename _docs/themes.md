@@ -4,7 +4,7 @@ title: Themes
 
 ### Sass
 
-The theme's primary Sass include should match the full theme name (e.g., `_sass/jekyll-theme-awesome.sccs`). This makes it easy (and predictible) for downstream users to include your theme's styles in their own custom stylesheet.
+The theme's primary Sass include should match the full theme name (e.g., `_sass/jekyll-theme-awesome.sccs`). This makes it easy (and predictable) for downstream users to include your theme's styles in their own custom stylesheet.
 
 ### Stylesheet
 
@@ -21,7 +21,7 @@ This way, by not importing additional includes, downstream users can easily add 
 
 ### Layouts
 
-Your theme must contain at least one layout at `_layouts/default.html`. Other layouts, such as `page`, `post`, or `home` are optional, and should inharit from the default layout, where possible.
+Your theme must contain at least one layout at `_layouts/default.html`. Other layouts, such as `page`, `post`, or `home` are optional, and should inherit from the default layout, where possible.
 
 Additionally, your layout should source the `assets/css/style.css` file to load your primary stylesheet. You may, optionally require additional stylesheets, such as a mobile or print stylesheet, where necessary, but it's best to use a single stylesheet, wherever possible, to avoid confusion when switching between themes.
 
